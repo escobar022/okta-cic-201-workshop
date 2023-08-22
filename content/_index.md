@@ -13,5 +13,3 @@ In this Workshop, you will learn how to secure Consumer, B2B and SaaS applicatio
 Auth0 is a flexible, drop-in solution to add authentication and authorization services to your applications. Your team and organization can avoid the cost, time, and risk that come with building your own solution to authenticate and authorize users.
 
 The goal of the workshop is to build an end-to-end demo environment from creating a free Auth0 Tenant and AWS account, adding Auth0 to a web application, customizing the login form, and enabling business-to-business authentication.
-
-<a href="https://aws.amazon.com/marketplace/pp/prodview-zrkhqreht5sw4?sr=0-1&ref_=beagle&applicationId=AWSMPContessa" target="_blank"><img src="images/available-in-awsmp-badge.png"></a>
