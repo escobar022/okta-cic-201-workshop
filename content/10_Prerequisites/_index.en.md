@@ -7,7 +7,7 @@ pre = "<b>1. </b>"
 To follow this workshop, you’ll need access to Okta Demo Platform.
 
 ### 1. Create a Demo Platform account
-You need access to the Okta Demo Platform. We provide an Auth0 Tenant via demo.okta.com. Otherwise, please sign-up for a new Auth0 Tenant, as we use some features that are only available as part of the 30 Day Free Trial (for the Business Login UseCase).
+You need access to the Okta Demo Platform. We provide an Auth0 Tenant via demo.okta.com.
 
 #### Demo Platform Partner Sign Up
 
