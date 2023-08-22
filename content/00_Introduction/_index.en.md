@@ -14,7 +14,7 @@ Today we are going to learn the following topics:
 # WORKSHOP STRUCTURE
 This workshop is broken into the sections listed below. The estimated time for completing the workshop is 1-1.5 hours.
 
-- Prerequisite: Creating Accounts and prepare IDE
+- Prerequisite: Creating Accounts and Using the Demo Platform
 - Customize the login form
 - Enabling business-to-business authentication
 - Customizing the login flow with custom Auth0 Actions
