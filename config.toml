@@ -1,4 +1,5 @@
 baseURL = "/okta-cic-201-workshop"
+landingPageURL = "/okta-cic-201-workshop"
 languageCode = "en-US"
 defaultContentLanguage = "en" # Modify to change the default language/version of the site
 
@@ -39,7 +40,6 @@ enableEmoji = true
   ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "mine"
-  disableLandingPage="true"
 
 
 [outputs]
