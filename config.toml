@@ -40,6 +40,7 @@ enableEmoji = true
   ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "mine"
+  landingPageURL = "/okta-cic-201-workshop"
 
 
 [outputs]
