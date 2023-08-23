@@ -20,8 +20,8 @@ We want to bring in a second organization and enable collaboration with the firs
 
 ```js #10
 {
-  "https://myapp.com/license": "premium",
-  "https://myapp.com/organization": "org2",
+  "license": "premium",
+  "organization": "org2",
   ...
 }
 ```
@@ -51,7 +51,7 @@ To enable collaboration, we need to provide our second organization (**org2**) a
 
 ### 5. Test Org1 login after inviting user from Org2
 
-1. Navigate to your application, **logout** and login again (`http://localhost:3000`). 
+1. Navigate to your application, **logout** and login again. 
 2. Enter as organization `org1`.
 3. Two enterprise Connections for Okta are shown, select the **2nd displayed Enterprise Connection**.
 4. This time the login is successful.
@@ -59,8 +59,8 @@ To enable collaboration, we need to provide our second organization (**org2**) a
 
 ```js #10
 {
-  "https://myapp.com/license": "corporate",
-  "https://myapp.com/organization": "org1",
+  "license": "corporate",
+  "organization": "org1",
   ...
 }
 ```

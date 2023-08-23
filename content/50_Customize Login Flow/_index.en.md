@@ -23,8 +23,8 @@ To provide the organization license to our application, we need to utilize Auth0
 2. Next to **Add Action**, click on the **+** button and click on **Build Custom**.
 3. Enter the Name `Enrich ID Token` and click on **Create**.
 4. In the displayed code editor, you will write some logic to add two new attributes (called claims) to the ID Token that Auth0 issues on every login. The two claims we add are;
-    - https://myapp.com/organization with the organization display name as a value
-    - https://myapp.com/license with the organization's license (which we just set in the metadata) as a value.
+    - 'organization' with the organization display name as a value
+    - 'license' with the organization's license (which we just set in the metadata) as a value.
 5. Paste the following Code Snippet and click on **Deploy**.
 ```
 /**
@@ -35,8 +35,8 @@ To provide the organization license to our application, we need to utilize Auth0
 */
 exports.onExecutePostLogin = async (event, api) => {
     if(event.organization) {
-      api.idToken.setCustomClaim("https://myapp.com/license", event.organization.metadata.license);
-      api.idToken.setCustomClaim("https://myapp.com/organization", event.organization.display_name);
+      api.idToken.setCustomClaim("license", event.organization.metadata.license);
+      api.idToken.setCustomClaim("organization", event.organization.display_name);
     }
   };
 ```
@@ -55,16 +55,16 @@ exports.onExecutePostLogin = async (event, api) => {
 
 ### 4. Test
 
-1. Navigate to your application, **logout** and login again (`http://localhost:3000`). 
+1. Navigate to your application, **logout** and login again. 
 2. You will be asked to enter your organization's name. Enter `org1` and click on **Continue**.
     - The login will automatically redirect you to your Identity Provider (aka Okta if you follow the lab), where you can sign in with your user's credentials.
 3. After successful login, click on your Profile on the top left right corner and click on **Profile**.
-4. You will notice, that the displayed JSON has two new parameters in the beginning for "https://myapp.com/license" and "https://myapp.com/organization".
+4. You will notice, that the displayed JSON has two new parameters in the beginning for "license" and "organization".
 
 ```js #10
 {
-  "https://myapp.com/license": "corporate",
-  "https://myapp.com/organization": "org1",
+  "license": "corporate",
+  "organization": "org1",
   ...
 }
 ```
