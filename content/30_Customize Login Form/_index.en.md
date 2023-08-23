@@ -8,15 +8,15 @@ Our simple login is in place and users can sign in to our application. It looks 
 
 ### 1. Add Branding
 1. In the navigation bar on the right of the Auth0 Dashboard, go to **Branding** -> **Universal Login**.
+2. You'll notice that Storytime already has a customized Universal Login view. Click on **Customization Options** to enter the WYSIWIG editor.
+3. From here, feel free to experiment with some different styling, such as Page Background > Page Layout, left or right orientation.
+4. Once you've made any changes, click "Save and Publish" in the top right. Upon refreshing Storytime, you'll see the updated Universal Login experience.
 <!-- 2. Enter the logo as well as the primary and background color specified.
     - Logo: `https://pizza0lab.s3.eu-central-1.amazonaws.com/pizza.jpeg`
     - Primary color: `#EB5424`
     - Background color: `#3A3A3A`
 3. Click on **Save**
 4. Navigate to your application and retry the login (`http://localhost:3000`). -->
-2. You'll notice that Storytime already has a customized Universal Login view. Click on **Customization Options** to enter the WYSIWIG editor.
-3. From here, feel free to experiment with some different styling, such as Page Background > Page Layout left or right orientation.
-4. Once you've made any changes, click "Save and Publish" in the top right. Upon refreshing Storytime, you'll see the updated Universal Login experience.
 
 ### 2. Add Social Login
 1. In the Auth0 Dashboard, go to **Authentication** -> **Social** and click on **+ Create Connection**. (Google should be already listed as a provider.)
