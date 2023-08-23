@@ -4,7 +4,7 @@ chapter = true
 weight = 1
 +++
 
-![Overview](/images/Auth0byOkta_lockup_rgb_blk.png)
+![Overview](images/Auth0byOkta_lockup_rgb_blk.png)
 
 Last Updated August 21th 2023.
 
