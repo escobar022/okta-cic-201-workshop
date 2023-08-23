@@ -37,11 +37,11 @@ Lastly, we need to let our application know that we expect business users to sig
 
 ### 4. Test
 
-1. Navigate to your application, logout and login again (`http://localhost:3000`). 
+1. Navigate to your Storytime application, logout and login again. 
 2. You will be asked to enter your organizations name. Enter `org1` and click on **Continue**.
     - The login will automatically redirect you to your Identity Provider (aka Okta if you follow the lab), where you can sign in with your user's credentials.
-3. After successful login, click on your Profile on the top left right corner and click on **Profile**.
-4. You will notice, that the displayed JSON has the new parameter **org_id**:
+3. After successful login, click on your Profile on the top left right corner and click on **Debug**.
+4. You will notice, that the displayed JSON within the ID token has the new parameter **org_id**:
 
 ```js #10
 {
