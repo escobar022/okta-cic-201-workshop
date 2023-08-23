@@ -9,11 +9,11 @@ The sample application that we use in this Workshop is **Storytime**, a simple S
 ### 1. Add StoryTime Application via demo.okta
 1. Back in in the Demo Platform, navigate to your recently spun up Demo (from the Prerequisites chapter)
 2. Click on "+Add Application"
-[Copy Domain and ClientID](images/AddStoryTimeApplication.png)
+![Copy Domain and ClientID](images/AddStoryTimeApplication.png)
 3. Find the Managed application named "Storytime" and click "Attach"
 4. It will take a few seconds for the application to deploy (you'll see an hour glass and text "Deploying" in gray). Once deployed, the status will show a green check mark and "Active"
 5. Click "Launch" to open the Storytime experience in a new tab
-[Copy Domain and ClientID](images/Storytime_firstpage.png)
+![Copy Domain and ClientID](images/Storytime_firstpage.png)
 
 <!-- ### 1. Login to Auth0 Management Console
 - If you're using a free trial tenant, sign in to https://manage.auth0.com
