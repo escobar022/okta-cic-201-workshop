@@ -1,12 +1,21 @@
 +++
-title = "Integrate Application"
+title = "Integrate Storytime Application"
 chapter = false
 weight = 30
 pre = "<b>2. </b>"
 +++
-The sample application that we use in this Workshop uses Node.js. You are requested to evaluate Auth0 to provide the login and user management. In order to get started, make sure you have an Auth0 Tenant and cloned the sampled application as described in the previous chapter **Prerequisites**.
+The sample application that we use in this Workshop is **Storytime**, a simple SPA built by the Okta Demo Engineering team. You are requested to evaluate Auth0 to provide the login and user management. In order to get started, make sure you have an Auth0 Tenant via the Demo Platform as shown in the previous chapter **Prerequisites**.
 
-### 1. Login to Auth0 Management Console
+### 1. Add StoryTime Application via demo.okta
+1. Back in in the Demo Platform, navigate to your recently spun up Demo (from the Prerequisites chapter)
+2. Click on "+Add Application"
+[Copy Domain and ClientID](images/AddStoryTimeApplication.png)
+3. Find the Managed application named "Storytime" and click "Attach"
+4. It will take a few seconds for the application to deploy (you'll see an hour glass and text "Deploying" in gray). Once deployed, the status will show a green check mark and "Active"
+5. Click "Launch" to open the Storytime experience in a new tab
+[Copy Domain and ClientID](images/Storytime_firstpage.png)
+
+<!-- ### 1. Login to Auth0 Management Console
 - If you're using a free trial tenant, sign in to https://manage.auth0.com
 - If you're using a CIC tenant from demo.okta, open the management console of your tenant via https://demo.okta
 
@@ -42,4 +51,4 @@ The sample application that we use in this Workshop uses Node.js. You are reques
 ### 4. Next Step
 - Congratulations, you now have a working login form!
 - If you are doing this lab in a guided class, please wait for your instructor to continue the course.
-- Otherwise, you may proceed to customize the user journey.
+- Otherwise, you may proceed to customize the user journey. -->
