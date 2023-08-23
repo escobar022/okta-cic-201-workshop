@@ -76,7 +76,7 @@ The final step is to register Okta as a new enterprise connection in Auth0.
 7. Switch to the tab **Applications**.
 8. Enable for **CIC Workshop**.
 
-### 4. Test
+### 3. Test
 1. Navigate to your Storytime application and re-try the login. 
 2. The button **Continue with {domain}.okta.com** shows up - click on it to sign-in.
 3. You should be redirected to your newly created Enterprise Connection and be able to sign in with the credentials that you used to create your Okta Tenant or received when registering the organization.
