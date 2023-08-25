@@ -22,8 +22,8 @@ Our simple login is in place and users can sign in to our application. It looks 
 1. In the Auth0 Dashboard, go to **Authentication** -> **Social** and click on **+ Create Connection**. (Google should be already listed as a provider.)
 2. Select a provided where you have an account to test it afterward e.g. LinkedIn, Facebook ....
 3. You don't have to follow the provided instructions, most applications come with Developer Keys that are fine for the Workshop to try them out. In production deployments, we would always recommend setting your own client ID and client secret.
-4. After creating the Social Connection, the **Application** section is automatically shown. Enable it for the previously created **CIC Workshop** application.
-5. Navigate to your application and retry the login, you will be able to use your social provider to access the application (`http://localhost:3000`).
+4. After creating the Social Connection, the **Application** section is automatically shown. Enable it for the **Storytime** application.
+5. Navigate to your application and retry the login, you will be able to use your social provider to access the Storytime application.
 
 ### 3. Next Step
 - Congratulations, you just made your application a lot more appealing!

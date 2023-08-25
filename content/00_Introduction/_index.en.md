@@ -9,7 +9,7 @@ Today we are going to learn the following topics:
 
 - How to authenticate users for Consumer, B2B and SaaS Apps?
 - How to customize the full user journey?
-- How to enrich the Tokes generated for Apps and Backend-Systems?
+- How to enrich the Tokens generated for Apps and Backend-Systems?
 
 # WORKSHOP STRUCTURE
 This workshop is broken into the sections listed below. The estimated time for completing the workshop is 1-1.5 hours.
@@ -20,4 +20,4 @@ This workshop is broken into the sections listed below. The estimated time for c
 - Customizing the login flow with custom Auth0 Actions
 - Enabling collaboration
 
-This workshop is focused on the initial integration of Auth0. The section **Additional Use Cases** is optional and will extend the demo environment or describes some more advanced topics. Please find the ones relevant to you and try them out.
+This workshop is focused on the initial integration of Okta Customer Identity Cloud (Auth0). The section **Additional Use Cases** is optional and will extend the demo environment or describes some more advanced topics. Please find the ones relevant to you and try them out.

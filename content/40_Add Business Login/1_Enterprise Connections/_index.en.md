@@ -48,7 +48,7 @@ Login to the **Okta Admin Console**. If you see the Okta Dashboard, click on the
 We have created a sample Okta Workforce tenant to simulate a business customer's employee single sign-on (SSO) implementation.
 In a new tab, navigate to https://okta-cic-workshop-org-creator.herokuapp.com/
 
-- **Auth0 Tenant Name**: This is the name of your own Auth0 tenant you are using at the moment. You can also find the name by going to https://manage.auth0.com/dashboard/region/tenant-name
+- **Auth0 Tenant Name**: This is the name of your own Auth0 tenant you are using at the moment, it is **not** the URL in your web browser. To find this value, go to your CIC tenant, click on Applications > Applications, click on Storytime, go to the Settings tab, and copy the value under "Domain" (the value will have the naming convention {tenant-name}.cic-demo-platform.auth0app.com). Be sure to copy the entire value under "Domain".
 - **A name for your organization**: Use the naming scheme your-name-workshop or similar unique names to avoid conflict with other lab participants
 - **Email address**: You can use any email address, though we recommend using an @example.com email, e.g. your-name@example.com.
 - **First and last name are optional** and can be entered if you want to see that this information will be transferred to Auth0 later on as well
@@ -74,7 +74,7 @@ The final step is to register Okta as a new enterprise connection in Auth0.
 5. Go to the section **Connection Button** and select **Display connection as a button**.
 6. Click on **Save**.
 7. Switch to the tab **Applications**.
-8. Enable for **CIC Workshop**.
+8. Enable for **Storytime**.
 
 ### 3. Test
 1. Navigate to your Storytime application and re-try the login. 

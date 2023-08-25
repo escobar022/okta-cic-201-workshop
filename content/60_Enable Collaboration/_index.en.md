@@ -35,11 +35,11 @@ To enable collaboration, we need to provide our second organization (**org2**) a
 
 ### 3. Test Org1 login before inviting user from Org2
 
-1. Navigate to your application, **logout** and login again (`http://localhost:3000`). 
+1. Navigate to your Storytime application, **logout** and login again. 
 2. Enter as organization `org1`.
 3. Two enterprise Connections for Okta are shown, select the **2nd displayed Enterprise Connection**.
 4. The access is denied. The error is not properly displayed in our application, but you can see in the URL of the browser the error message:
-    - **http://localhost:3000/?error=access_denied&error_description=..**
+    - **http://storytime.oktademo.app/?error=access_denied&error_description=..**
 
 ### 4. Invite a member of Org2 to Org1
 
